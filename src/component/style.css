@@ -1,0 +1,80 @@
+body{
+    background: white;
+ }
+ h1 {
+     color: yellow;
+     font-size: 42px;
+     text-align: start;
+     }
+ P {
+     color:black;
+     font-size: 12px;
+ }
+ ul {
+     font-size: 22px;
+     color:black;
+ }
+ h2, h3, h4 {
+     color: red;
+     font-size: 40px;
+     text-align: center;
+ }
+ h5 {
+     font-size: 80px;
+     color: red;
+     text-align: center;
+     background: black;
+ }
+ /*==Reset CSS==*/
+ * {
+      margin: 0;
+      padding: 0;
+ } 
+ .logo {
+         float: left;
+         margin: 0px;
+ }
+ div.gallery {
+     margin: 59px;
+     border: 1px solid #ccc;
+     float: left;
+     width: 250px;
+ }
+
+ div.gallery:hover {
+     border: 1px solid #777;
+ }
+
+ div.gallery img {
+     width: 100%;
+     height: auto;
+ }
+
+ div.desc {
+     padding: 15px;
+     text-align: center;
+     color: red;
+ }
+ .adv {
+     overflow: auto;
+     color: gold;
+ }
+ .advimg {
+     float: left;
+ }
+ .disad {
+     overflow: auto;
+     color:gold;
+ }
+ .advimg2{
+     float: left;
+ }
+ .type {
+     color:black;
+     float: none;
+ }
+ #menu ul {
+     background:yellow;
+     list-style-type: none;
+     text-align: center;
+ }

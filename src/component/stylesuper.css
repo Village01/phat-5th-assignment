@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+p{
+    color:yellow;
+    font-size: medium;
+    text-align: center;
+}
+h1{
+    color: red;
+    font-size: xx-large;
+    text-align: center;
+}
+h2 {
+    color: red;
+    font-size: large;
+}
+h3 {
+    color: red;
+    font-size: large;
+}
+img {
+    text-align: center;
+}
+ul {
+    color: blue;
+    text-align: center;
+    font-size: 22px;
+}
+/*==Reset CSS==*/
+* {
+     margin: 0;
+     padding: 0;
+} 
+#menu ul {
+    background: #1f568b;
+    list-style-type: disc;
+    text-align: center;
+}
+#menu li{
+    color: #f1f1f1;
+    display: inline-block;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+#menu a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+#menu a:hover {
+            background: #F1F1F1;
+            color: #333;
+        }
